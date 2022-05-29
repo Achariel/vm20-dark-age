@@ -13,7 +13,7 @@ export class GhoulActorSheet extends MortalActorSheet {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       classes: ["vtm5e", "sheet", "actor", "ghoul"],
-      template: "systems/wod20/templates/actor/ghoul-sheet.html",
+      template: "systems/vm20-dark-age/templates/actor/ghoul-sheet.html",
       width: 800,
       height: 700,
       tabs: [
@@ -29,8 +29,8 @@ export class GhoulActorSheet extends MortalActorSheet {
   /** @override */
   get template() {
     if (!game.user.isGM && this.actor.limited)
-      return "systems/wod20/templates/actor/limited-sheet.html";
-    return "systems/wod20/templates/actor/ghoul-sheet.html";
+      return "systems/vm20-dark-age/templates/actor/limited-sheet.html";
+    return "systems/vm20-dark-age/templates/actor/ghoul-sheet.html";
   }
 
   /* -------------------------------------------- */

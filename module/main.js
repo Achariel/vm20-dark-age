@@ -116,9 +116,9 @@ Hooks.once("init", async function () {
   Handlebars.registerHelper('le', function( a, b ){
     var next =  arguments[arguments.length-1];
     console.log(a,b);
-    console.log((a <= b)) 
+    console.log((a <= b))
     return (a <= b) ? next.fn(this) : next.inverse(this);
-    
+
   });
   Handlebars.registerHelper("setVar", function(varName, varValue, options) {
     options.data.root[varName] = varValue;
@@ -213,7 +213,7 @@ Hooks.once("init", async function () {
       oblivion: "VTM5E.Oblivion",
       rituals: "VTM5E.Rituals",
       ceremonies: "VTM5E.Ceremonies",
-      
+
     };
     // if (roll) {
     //   // if (key === "rituals") {
@@ -237,16 +237,16 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
   dice3d.addDicePreset({
     type: "dv",
     labels: [
-      "systems/wod20/assets/images/normal-fail-dsn.png",
-      "systems/wod20/assets/images/normal-fail-dsn.png",
-      "systems/wod20/assets/images/normal-fail-dsn.png",
-      "systems/wod20/assets/images/normal-fail-dsn.png",
-      "systems/wod20/assets/images/normal-fail-dsn.png",
-      "systems/wod20/assets/images/normal-success-dsn.png",
-      "systems/wod20/assets/images/normal-success-dsn.png",
-      "systems/wod20/assets/images/normal-success-dsn.png",
-      "systems/wod20/assets/images/normal-success-dsn.png",
-      "systems/wod20/assets/images/normal-crit-dsn.png",
+      "systems/vm20-dark-age/assets/images/normal-fail-dsn.png",
+      "systems/vm20-dark-age/assets/images/normal-fail-dsn.png",
+      "systems/vm20-dark-age/assets/images/normal-fail-dsn.png",
+      "systems/vm20-dark-age/assets/images/normal-fail-dsn.png",
+      "systems/vm20-dark-age/assets/images/normal-fail-dsn.png",
+      "systems/vm20-dark-age/assets/images/normal-success-dsn.png",
+      "systems/vm20-dark-age/assets/images/normal-success-dsn.png",
+      "systems/vm20-dark-age/assets/images/normal-success-dsn.png",
+      "systems/vm20-dark-age/assets/images/normal-success-dsn.png",
+      "systems/vm20-dark-age/assets/images/normal-crit-dsn.png",
     ],
     colorset: "black",
     fontScale: 0.5,
@@ -273,16 +273,16 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
   dice3d.addDicePreset({
     type: "dh",
     labels: [
-      "systems/wod20/assets/images/bestial-fail-dsn.png",
-      "systems/wod20/assets/images/red-fail-dsn.png",
-      "systems/wod20/assets/images/red-fail-dsn.png",
-      "systems/wod20/assets/images/red-fail-dsn.png",
-      "systems/wod20/assets/images/red-fail-dsn.png",
-      "systems/wod20/assets/images/red-success-dsn.png",
-      "systems/wod20/assets/images/red-success-dsn.png",
-      "systems/wod20/assets/images/red-success-dsn.png",
-      "systems/wod20/assets/images/red-success-dsn.png",
-      "systems/wod20/assets/images/red-crit-dsn.png",
+      "systems/vm20-dark-age/assets/images/bestial-fail-dsn.png",
+      "systems/vm20-dark-age/assets/images/red-fail-dsn.png",
+      "systems/vm20-dark-age/assets/images/red-fail-dsn.png",
+      "systems/vm20-dark-age/assets/images/red-fail-dsn.png",
+      "systems/vm20-dark-age/assets/images/red-fail-dsn.png",
+      "systems/vm20-dark-age/assets/images/red-success-dsn.png",
+      "systems/vm20-dark-age/assets/images/red-success-dsn.png",
+      "systems/vm20-dark-age/assets/images/red-success-dsn.png",
+      "systems/vm20-dark-age/assets/images/red-success-dsn.png",
+      "systems/vm20-dark-age/assets/images/red-crit-dsn.png",
     ],
     colorset: "hunger",
     system: "vtm5e",
