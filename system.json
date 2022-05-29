@@ -1,8 +1,8 @@
 {
-  "name": "vm20: dark age",
-  "title": "Vampire DARK AGE",
+  "name": "vm20-dark-age",
+  "title": "Vampire 20th anniversary: DARK AGE",
   "description": "Vampire 20th system for Foundry VTT!",
-  "version": "1.5.35",
+  "version": "1.5.36",
   "minimumCoreVersion": "0.9.0",
   "compatibleCoreVersion": "9.269",
   "templateVersion": 3,
