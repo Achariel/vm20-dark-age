@@ -499,129 +499,157 @@
         "skills": {
           "alertness": {
             "value": 0,
+            "type": "VTM5E.Talents",
             "name": "VTM5E.Alertness"
           },
           "animal ken": {
             "value": 0,
+            "type": "VTM5E.Skills-A",
             "name": "VTM5E.AnimalKen"
           },
            "academics": {
             "value": 0,
+            "type": "VTM5E.Knowledges",
             "name": "VTM5E.Academics"
           },
           "archery": {
             "value": 0,
+            "type": "VTM5E.Skills-A",
             "name": "VTM5E.Archery"
           },
           "athletics": {
             "value": 0,
+            "type": "VTM5E.Talents",
             "name": "VTM5E.Athletics"
           },
           "craft": {
             "value": 0,
+            "type": "VTM5E.Skills-A",
             "name": "VTM5E.Craft"
           },
 
           "hearth Wisdom": {
             "value": 0,
+            "type": "VTM5E.Knowledges",
             "name": "VTM5E.HearthWisdom"
           },
-
           "awareness": {
             "value": 0,
+            "type": "VTM5E.Talents",
             "name": "VTM5E.Awareness"
           },
           "drive": {
             "value": 0,
+            "type": "VTM5E.Skills-A",
             "name": "VTM5E.Drive"
           },
           "Seneschal": {
             "value": 0,
+            "type": "VTM5E.Knowledges",
             "name": "VTM5E.Seneschal"
           },
           "brawl": {
             "value": 0,
+            "type": "VTM5E.Talents",
             "name": "VTM5E.Brawl"
           },
-
           "etiquette": {
             "value": 0,
+            "type": "VTM5E.Skills-A",
             "name": "VTM5E.Etiquette"
           },
           "investigation": {
             "value": 0,
+            "type": "VTM5E.Knowledges",
             "name": "VTM5E.Investigation"
           },
           "empathy": {
             "value": 0,
+            "type": "VTM5E.Talents",
             "name": "VTM5E.Empathy"
           },
           "law": {
             "value": 0,
+            "type": "VTM5E.Knowledges",
             "name": "VTM5E.Law"
           },
           "expression": {
             "value": 0,
+            "type": "VTM5E.Talents",
             "name": "VTM5E.Expression"
           },
           "commerce": {
             "value": 0,
+            "type": "VTM5E.Skills-A",
             "name": "VTM5E.Commerce"
           },
           "medicine": {
             "value": 0,
+            "type": "VTM5E.Knowledges",
             "name": "VTM5E.Medicine"
           },
           "intimidation": {
             "value": 0,
+            "type": "VTM5E.Talents",
             "name": "VTM5E.Intimidation"
           },
           "melee": {
             "value": 0,
+            "type": "VTM5E.Skills-A",
             "name": "VTM5E.Melee"
           },
           "occult": {
             "value": 0,
+            "type": "VTM5E.Knowledges",
             "name": "VTM5E.Occult"
           },
           "leadership": {
             "value": 0,
+            "type": "VTM5E.Talents",
             "name": "VTM5E.Leadership"
           },
           "performance": {
             "value": 0,
+            "type": "VTM5E.Skills-A",
             "name": "VTM5E.Performance"
           },
           "politics": {
             "value": 0,
+            "type": "VTM5E.Knowledges",
             "name": "VTM5E.Politics"
           },
           "streetwise": {
             "value": 0,
+            "type": "VTM5E.Talents",
             "name": "VTM5E.Streetwise"
           },
           "stealth": {
             "value": 0,
+            "type": "VTM5E.Skills-A",
             "name": "VTM5E.Stealth"
           },
           "ritualistics": {
             "value": 0,
+            "type": "VTM5E.Knowledges",
             "name": "VTM5E.Ritualistics"
           },
           "subterfuge": {
             "value": 0,
+            "type": "VTM5E.Talents",
             "name": "VTM5E.Subterfuge"
           },
           "survival": {
             "value": 0,
+            "type": "VTM5E.Skills-A",
             "name": "VTM5E.Survival"
           },
-
           "religion": {
             "value": 0,
+            "type": "VTM5E.Knowledges",
             "name": "VTM5E.Religion"
           }
-        }
+        },
+        "skills2":{}
       },
       "disciplines": {
         "disciplines": {
@@ -675,6 +703,12 @@
           },
           "dominate": {
             "name": "VTM5E.Dominate",
+            "value": 0,
+            "powers": [],
+            "visible": false
+          },
+          "duranki": {
+            "name": "VTM5E.Duranki",
             "value": 0,
             "powers": [],
             "visible": false
